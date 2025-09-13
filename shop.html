@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap cdn-css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="icon" href="" type="image/x-icon">
+
+    <title>Lara_Fashion_&_Trend</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm px-lg-5 px-2 m-0 sticky-top">
+        <div class="container-fluid">
+            <!-- Left Side Logo -->
+            <a class="navbar-brand fw-bold logo" href="#">Lara🌷</a>
+
+            <!-- Toggle for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Right side menu -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="aboutUs.css">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold active" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- first banner -->
+    <section class="shop-banner">
+        <h2>#stayhome</h2>
+        <p>save more with coupons up to 70% off!</p>
+    </section>
+    <!-- https://www.freepik.com/free-photo/hurry-up-chek-it-out-portrait-charismatic-joyful-excited-young-cute-curlyhaired-girl-b_36968772.htm#fromView=search&page=1&position=6&uuid=58e0b8aa-cde2-47da-bb26-086296a9de33&query=tshirt+blue+background+ba -->
+
+    <!-- gallery -->
+    <section id="gallery">
+        <div class="feat-cards row px-4">
+            <div class="card F-card col-md-3 col-6" onclick="window.location.href='sProduct.html';">
+                <img src="images/new1.png" class="card-img-top feature-img" alt="">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">Black T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center m-0 p-0">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div class="left">
+                            <div class="text-warning">★★★★☆</div>
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <div class="right">
+                            <a href="#" class="btn btn-icon add-to-cart" data-name="Black T-shirts"
+                                data-price="29.99" data-image="images/new1.png" data-quantity="1">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new2.png" class="card-img-top" alt="">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">Purple T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon add-to-cart" data-name="Purple T-shirts" data-price="29.99"
+                            data-image="images/new2.png">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new3.png" class="card-img-top" alt="...">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">Green T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn-icon add-to-cart" data-name="Green T-shirts" data-price="29.99"
+                            data-image="images/new3.png">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new4.png" class="card-img-top" alt="...">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">Red T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon add-to-cart" data-name="Red T-shirts" data-price="29.99"
+                            data-image="images/new4.png">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new5.png" class="card-img-top" alt="">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">white T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon add-to-cart" data-name="white T-shirts" data-price="29.99"
+                            data-image="images/new5.png">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new6.png" class="card-img-top" alt="">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">blue T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon add-to-cart" data-name="blue T-shirts" data-price="29.99"
+                            data-image="images/new6.png">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new7.png" class="card-img-top" alt="...">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">Sky T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99 </div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon add-to-cart" data-name="Sky T-shirts" data-price="29.99"
+                            data-image="images/new7.png">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new8.png" class="card-img-top" alt="">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">Skin T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon add-to-cart" data-name="Skin T-shirts" data-price="29.99"
+                            data-image="images/new8.png">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feat-cards row px-4">
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new1.png" class="card-img-top feature-img" alt="">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">ColorFul T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center m-0 p-0">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div class="left">
+                            <div class="text-warning">★★★★☆</div>
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <div class="right">
+                            <a href="#" class="btn btn-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new2.png" class="card-img-top" alt="">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">ColorFul T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new3.png" class="card-img-top" alt="...">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">ColorFul T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new4.png" class="card-img-top" alt="...">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">ColorFul T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new5.png" class="card-img-top" alt="">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">ColorFul T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new6.png" class="card-img-top" alt="">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">ColorFul T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new7.png" class="card-img-top" alt="...">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">ColorFul T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99 </div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card F-card col-md-3 col-6">
+                <img src="images/new8.png" class="card-img-top" alt="">
+                <div class="card-body text-start">
+                    <h6 class="card-title mb-0">ColorFul T-shirts</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Left side (stars + price stacked vertically) -->
+                        <div>
+                            <!-- Stars -->
+                            <div class="text-warning">★★★★☆</div>
+                            <!-- Price -->
+                            <div class="fw-bold text-success">$29.99</div>
+                        </div>
+                        <!-- Right side (Cart icon) -->
+                        <a href="#" class="btn btn-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pagination -->
+    <section id="pagination" class="gallery">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
+    </section>
+
+    <!-- news-letter -->
+    <section id="news-letter">
+        <h2>Sign Up for News Letter</h2>
+        <p>Get E-mail updates about our latest shop and <strong class="text-danger">special offer</strong></p>
+        <div class="search-bar">
+            <input type="text" id="news-mail" placeholder="Enter Your Email">
+            <button class="btn btn-newsletter">Sign Up</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="first-footer">
+            <h2><strong>Lara</strong>🌷</h2>
+            <h5>Contact</h5>
+            <p><strong>Address:</strong> 562 Area. Block-W. Street# 3. House # 54</p>
+            <p><strong>Phone:</strong> +0987654321</p>
+            <p><strong>Hours:</strong> 10:00-18:00, Mon-Sat</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="sec-footer">
+            <h5>About</h5>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="third-footer">
+            <h5>My Account</h5>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="fourth-footer">
+            <h5>Install App</h5>
+            <p>From App Store or Google Play</p>
+            <div class="app-logo">
+                <img src="apps images/app_store_badge.jpg" alt="app-logo">
+                <img src="apps images/google_play_badge.jpg" alt="play-logo">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="apps images/paymet_stores.jpg" alt="payment-gateway">
+        </div>
+    </section>
+
+</body>
+<!-- boot strap js links -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+    crossorigin="anonymous"></script>
+
+<script>
+  document.querySelectorAll('.add-to-cart').forEach(btn => {
+    btn.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // product info
+        let name = this.getAttribute("data-name");
+        let price = parseFloat(this.getAttribute("data-price"));
+        let image = this.getAttribute("data-image");
+
+        // get old cart
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+        // check if product already in cart
+        let existing = cart.find(item => item.name === name);
+        if (existing) {
+            existing.quantity += 1;
+        } else {
+            cart.push({
+                name: name,
+                price: price,
+                image: image,
+                quantity: 1
+            });
+        }
+
+        // save back to localStorage
+        localStorage.setItem('cart', JSON.stringify(cart));
+        alert(`${name} added to cart!`);
+    });
+});
+
+</script>
+
+</html>
