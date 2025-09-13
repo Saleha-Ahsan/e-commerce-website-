@@ -1,0 +1,126 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    /* Banner */
+    .about-banner {
+      height: 50vh;
+      text-align: center;
+      padding: 60px 20px;
+      background: url(blog-images/wooden-background-with-frame-made-books.jpg) no-repeat;
+      background-size: cover;
+      background-position: top 80% right 0;
+      object-fit: cover;
+      color: #fff;
+    }
+
+    .about-banner h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .about-banner p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* who we are */
+    .who-we-are {
+      max-width: 1100px;
+      margin: 50px auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 40px;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+    .who-left{
+        width: 40%;
+    }
+    .who-left img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .who-right {
+      flex: 1;
+    }
+
+    .who-right h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #222;
+      font-weight: bold;
+    }
+
+    .who-right p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      color: #222;
+    }
+
+    .highlight-lines {
+      margin: 15px 0;
+    }
+
+    .highlight-lines p {
+      border-bottom: 2px dotted #007bff;
+      display: inline-block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    /* Marquee style */
+    .marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+      width: 100%;
+      background-color: #ccc;
+    }
+
+    .marquee span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 10s linear infinite;
+      font-size: 1rem; /* same as paragraph */
+      color: #007bff;
+    }
+
+    @keyframes marquee {
+      0%   { transform: translateX(0%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .who-we-are {
+        flex-direction: column;
+      }
+
+      .who-left img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    /* responsive */
+    @media (max-width:799px){
+        .who-left{
+            width: 100%;
+        }
+    }
